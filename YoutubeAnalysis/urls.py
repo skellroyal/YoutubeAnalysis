@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-# import view functions from trips app
-#from trips.views import hello_world
-from trips.views import hello_world, home, post_detail, login, call_youtube_api
+# import view functions from videos app
+#from videos.views import hello_world
+from videos.views import hello_world, home, post_detail, login, call_youtube_api
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),

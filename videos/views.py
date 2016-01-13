@@ -2,7 +2,7 @@
 
 from datetime import datetime
 from django.shortcuts import render
-from trips.models import Post
+from videos.models import Post
 
 
 
